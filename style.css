@@ -1,0 +1,22 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#12072b;color:#eae6f5;font-family:'Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;
+  line-height:1.6}
+a{color:#00e5ff}
+header{background:rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.12);
+  padding:18px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+header .logo{font-weight:900;letter-spacing:.04em;font-size:20px;
+  background:linear-gradient(135deg,#ffd200 0%,#ff2d78 45%,#7c4dff 75%,#00e5ff 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;text-decoration:none}
+nav a{color:#eae6f5;text-decoration:none;margin-left:20px;font-size:14px;font-weight:600;letter-spacing:.02em}
+nav a:hover{color:#00e5ff}
+main{max-width:780px;margin:0 auto;padding:48px 24px 80px}
+h1{font-size:32px;font-weight:900;margin-bottom:8px;letter-spacing:.02em}
+h2{font-size:20px;font-weight:800;margin:28px 0 10px}
+p,li{color:rgba(234,230,245,.85);margin-bottom:12px}
+ul{padding-left:22px;margin-bottom:12px}
+.updated{color:rgba(234,230,245,.5);font-size:13px;margin-bottom:32px}
+.btn{display:inline-block;background:linear-gradient(135deg,#ff2d78,#ff8a00);color:#fff;font-weight:800;
+  padding:14px 28px;border-radius:14px;text-decoration:none;letter-spacing:.04em;text-transform:uppercase;font-size:14px}
+footer{text-align:center;padding:32px 24px;color:rgba(234,230,245,.4);font-size:13px;
+  border-top:1px solid rgba(255,255,255,.08)}
+.card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:20px;margin:20px 0}
